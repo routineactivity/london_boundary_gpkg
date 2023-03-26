@@ -40,4 +40,4 @@ gla_lis <- st_read("https://github.com/routineactivity/london_boundary_gpkg/raw/
 gla_sis <- st_read("https://github.com/routineactivity/london_boundary_gpkg/raw/main/gla_boundary_files.gpkg", layer = "gla_strategic_industrial")
 
 **GLA Housing Allocations**
-gla_ha <- st_read("https://github.com/routineactivity/london_boundary_gpkg/raw/main/gla_boundary_files.gpkg", layer = "la_site_allocations")
+gla_ha <- st_read("https://github.com/routineactivity/london_boundary_gpkg/raw/main/gla_boundary_files.gpkg", layer = "gla_site_allocations")
